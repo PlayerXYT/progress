@@ -1,0 +1,24 @@
+[project]
+name = "progress"
+version = "1.0.0"
+description = "Creates progress bars with the unicode box characters"
+readme = "README.md"
+authors = [{name="Player_X_YT"}]
+license = {file="LICENSE"}
+classifiers = [
+	"License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3 :: Only",
+	"Operating System :: POSIX :: Linux"
+]
+keywords = ["progress", "bar", "percent", "box", "boxes"]
+requires-python = ">=3.0"
+
+[project.urls]
+Homepage = "https://github.com/PlayerXYT/progress"
+Issues = "https://github.com/PlayerXYT/progress/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
